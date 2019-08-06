@@ -4,4 +4,7 @@ class ApplicationController < ActionController::Base
   def hello
     render html: "hello, world!"
   end
+  def words
+    render html: "some words to test changes"
+  end
 end
